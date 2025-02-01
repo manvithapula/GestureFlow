@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3558CAAB2D4AEB21003439E4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3558CAAA2D4AEB21003439E4 /* HomeView.swift */; };
+		3558CAC42D4AF063003439E4 /* LearnTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3558CAC32D4AF063003439E4 /* LearnTabView.swift */; };
+		35F4F88A2D4AA1060037EA00 /* SpeedMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F4F8892D4AA1060037EA00 /* SpeedMatchView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		35C158F12D4A514900A0592B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3558CAAA2D4AEB21003439E4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3558CAC32D4AF063003439E4 /* LearnTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTabView.swift; sourceTree = "<group>"; };
 		35C158E02D4A514800A0592B /* SignLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C158F02D4A514900A0592B /* SignLanguageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignLanguageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C158FA2D4A514900A0592B /* SignLanguageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignLanguageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F4F8892D4AA1060037EA00 /* SpeedMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMatchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +84,13 @@
 		35C158D72D4A514800A0592B = {
 			isa = PBXGroup;
 			children = (
+				3558CAC32D4AF063003439E4 /* LearnTabView.swift */,
+				35F4F8892D4AA1060037EA00 /* SpeedMatchView.swift */,
 				35C158E22D4A514800A0592B /* SignLanguage */,
 				35C158F32D4A514900A0592B /* SignLanguageTests */,
 				35C158FD2D4A514900A0592B /* SignLanguageUITests */,
 				35C158E12D4A514800A0592B /* Products */,
+				3558CAAA2D4AEB21003439E4 /* HomeView.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,6 +248,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3558CAAB2D4AEB21003439E4 /* HomeView.swift in Sources */,
+				3558CAC42D4AF063003439E4 /* LearnTabView.swift in Sources */,
+				35F4F88A2D4AA1060037EA00 /* SpeedMatchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
