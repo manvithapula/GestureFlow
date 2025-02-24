@@ -39,3 +39,7 @@ Run the app on a real iOS device
 AR functionality requires a real iOS device with ARKit support.
 
 Ensure camera permissions are enabled for gesture recognition.
+
+
+# Screenshots 
+<img width="552" alt="Image" src="https://github.com/user-attachments/assets/11083bb0-e48a-4282-b4e3-8f07c94c4ddd" />
